@@ -1,8 +1,8 @@
 body {
     width: 800px;
     margin: auto;
-    font-family: ,monospace;
-    color : #665f5f;
+    font-family: "monospace";
+    color: #665f5f;
 }
 
 #banner {
@@ -79,4 +79,45 @@ caption {
 
 table tr:nth-child(odd) {
     background-color: #d7d7d7; 
+}
+
+@media screen and (max-width: 1000px) {
+
+    body {
+        width: 700px;
+    }
+    
+
+    .banner {
+        width: 700px;
+    }
+
+    hr {
+        width: 700px;
+    }
+
+    table {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    body {
+        width: 500px;
+    }
+    
+
+    .banner {
+        width: 500px;
+    }
+
+    hr {
+        width: 500px;
+    }
+
+    table {
+        width: 500px;
+    }
+
 }
